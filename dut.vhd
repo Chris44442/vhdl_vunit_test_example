@@ -19,7 +19,6 @@ entity dut is port(
 end entity;
 
 architecture rtl of dut is
-
 begin
 
 out1.foo <= in1(15 downto 0);
